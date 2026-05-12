@@ -1,0 +1,13 @@
+#!/bin/bash
+# Task 7: Merge branches output
+# This file contains the terminal output from merging the bug-fix-typo branch into main
+# Commands executed: git checkout main && git merge bug-fix-typo
+
+# Expected output showing 1 file changed:
+# Switched to branch 'main'
+# Updating a1b2c3d..e4f5g6h
+# Fast-forward
+#  simple-interest.sh | 1 +
+#  1 file changed, X insertion(s), Y deletion(s)
+
+# Replace this with your actual merge output
