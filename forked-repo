@@ -1,0 +1,10 @@
+#!/bin/bash
+# Task 6: Fork verification curl command
+# This file should contain the curl command output that verifies the repository 
+# has been successfully forked from ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+# Example: curl -s https://api.github.com/repos/hr-ai-full-stack-developer/calculator | jq '.fork, .parent'
+# Output should show fork status and parent repository information
+
+# Replace this with your actual curl command output
+curl -s https://api.github.com/repos/hr-ai-full-stack-developer/calculator
