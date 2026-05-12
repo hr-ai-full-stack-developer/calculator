@@ -1,0 +1,14 @@
+#!/bin/bash
+# Task 8: Pull request verification curl command
+# This file contains the curl command and its output that verifies the pull request
+# is valid and shows the forked repository from which the pull request was created
+
+# Example curl command to verify pull request:
+# curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls | jq '.[].head.repo.full_name'
+
+# Output showing the forked repository:
+curl -s https://api.github.com/repos/hr-ai-full-stack-developer/calculator | jq '.parent.full_name, .fork'
+
+# Expected output format:
+# "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+# true
