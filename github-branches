@@ -1,0 +1,14 @@
+#!/bin/bash
+# Task 9: GitHub branches display
+# This file should contain the terminal output showing branch names and their status
+# Example output from: git branch -a  or  git show-ref
+
+# Example output:
+# $ git branch -a
+#   bug-fix-typo
+# * main
+#   remotes/origin/HEAD -> origin/main
+#   remotes/origin/bug-fix-typo
+#   remotes/origin/main
+
+# Replace this with your actual branch listing output
